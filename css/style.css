@@ -1,0 +1,30 @@
+body {
+	font-family: 'Bungee', cursive;
+}
+.main_header_logo{
+	padding: 15px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.main_header_logo_wrap{
+	text-align: center;
+}
+
+.main_header_preview{
+	background: url("../img/preview_bg.jpg") #cecece;
+	background-position: center;
+	background-size: cover;
+	height: 50vh;
+	text-align: center;
+	padding-right: 0;
+}
+
+.main_header_preview_text{
+	display: inline-block;
+    color: #c00a27;
+    font-size: 150px;
+    line-height: 150px;
+    font-family: 'Bungee', cursive;
+    font-size: 5vw;
+}

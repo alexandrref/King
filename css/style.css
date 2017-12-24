@@ -1,17 +1,26 @@
 body {
-	font-family: 'Bungee', cursive;
+	font-family: 'Bungee';
 }
-.main_header_logo{
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bungee';
+}
+
+.main_header{
+	margin-bottom: 30px;
+}
+
+.main_header__logo{
 	padding: 15px;
 	margin: 0 auto;
 	display: inline-block;
 }
 
-.main_header_logo_wrap{
+.main_header__logo_wrap{
 	text-align: center;
 }
 
-.main_header_preview{
+.main_header__preview{
 	background: url("../img/preview_bg.jpg") #cecece;
 	background-position: center;
 	background-size: cover;
@@ -20,11 +29,41 @@ body {
 	padding-right: 0;
 }
 
-.main_header_preview_text{
+.main_header__preview_text{
 	display: inline-block;
     color: #c00a27;
     font-size: 150px;
     line-height: 150px;
     font-family: 'Bungee', cursive;
     font-size: 5vw;
+}
+
+.main_section__builder_block_item{
+	min-height: 100px;
+	background: url("../img/banner-btn-pizza.jpg") no-repeat #cecece;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.main_section__builder_block_item_btn{
+	background-color: #c00a27;
+	padding: 10px;
+	outline: none;
+	color: #fff;
+	border: none;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.main_section__builder_block_item_btn:hover{
+	background-color: #fff;
+	color: #c00a27;
+	border: 2px solid #c00a27;
+	font-weight: bold;
+}
+
+@media (max-width: 768px) { 
+	.main_section__builder_block_item {
+		text-align: center;
+	}
 }
